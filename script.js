@@ -26,7 +26,7 @@ function random(arr) {
 function passwordOps() {
   let passwordLength = parseInt(prompt ("How many characters do you want your password? (between 8 and 128 characters)"));
   if (passwordLength < 8 || passwordLength > 128) {
-    alert ("Passworf length must be between 8 and 128.")
+    alert ("Password length has to be between 8 and 128.")
     return passwordOps()
   }
 // Prompts
